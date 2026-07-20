@@ -4,7 +4,7 @@ import type { EventDTO, SkillLevel, UserDTO } from "@shared/api";
 import { getCurrentUser, updateUserById, getJoinedEvents, uploadUserPhoto } from "../utils/api";
 import { setStoredUser } from "../utils/storage";
 import { apiErrorMessage } from "../utils/errors";
-import "./Profile.css";
+import "./profile.css";
 
 const Profile = () => {
   const [user, setUser] = useState<UserDTO | null>(null);

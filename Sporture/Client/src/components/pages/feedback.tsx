@@ -1,7 +1,7 @@
 // Client/src/components/pages/feedback.jsx
 import { useState, useEffect, type ChangeEvent, type FormEvent } from "react";
 import type { FeedbackDTO } from "@shared/api";
-import "./Feedback.css";
+import "./feedback.css";
 import { getFeedback, postFeedback } from "../utils/api";
 import { apiErrorMessage } from "../utils/errors";
 
